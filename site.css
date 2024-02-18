@@ -1,0 +1,248 @@
+body{
+  font-family: arial;
+  height: 800px;
+}
+header{
+  padding-bottom: 7px;
+  border: none;
+  height: 120px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+
+}
+.sidebar{
+  border: none;
+  position: fixed;
+  left: 0;
+  top: 130px;
+  right: 60%;
+  bottom: 0;
+  background-color: #e6dace;
+}
+.one{
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+  height: 40px;
+}
+.p1{
+  font-weight: 900;
+  font-size: 23px;
+}
+.p2{
+  padding-top: 5px;
+  align-items: center;
+  font-size: 22px;
+  color: gray;
+}
+.img{
+  width: 20px;
+  height: 20px;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  font-size: 14px;
+  padding-right: 50px;
+}
+.l0{
+  color: blue;
+  cursor: pointer;
+}
+.l1:hover{
+  color: blue;
+  cursor: pointer;
+}
+.l2:hover{
+  color: blue;
+  cursor: pointer;
+}
+.l3:hover{
+  color: blue;
+  cursor: pointer;
+}
+.img1{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.main{
+  border: none;
+  border-color: green;
+  padding-left: 60px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #f4ece6;
+  margin-right: 35px;
+  box-shadow: -5px 8px 20px 0 rgba(0, 0, 0, 0.2);
+}
+main{
+  border: none;
+  display: flex;
+  border-color: red;
+  width: 735px;
+  position: absolute;
+  top: 300px;
+  left: 20%;
+}
+.hello{
+  border: none;
+  border-color: blue;
+}
+.p3{
+ font-weight: 900;
+ font-size: 22px;
+ border: none;
+ width: 170px;
+ text-align: center;
+ margin-top: 40px;
+}
+.p4{
+  color: gray;
+  font-size: 22px;
+}
+.p6{
+  font-weight: 900;
+  border: none;
+  font-size: 90px;
+  margin-top: 10px;
+}
+.p7{
+  font-size: 25px;
+  border: none;
+  margin-top: -60px;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.p8{
+  border: none;
+  width: 350px;
+  color: gray;
+  margin-top: 50px;
+}
+.p9{
+  border: none;
+  width: 350px;
+  color: gray;
+  margin-top:50px;
+}
+.blue-line {
+  border: none; /* Remove default border */
+  background-color: blue; /* Set background color to blue */
+  height: 2px; /* Set height of the line */
+  width: 50px; /* Set width of the line */
+
+}
+.socials-div{
+  border:none;
+  background-color: white;
+  position: relative;
+}
+.social{
+  background-color: white;
+  width: 20px;
+}
+.button{
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  margin-top: 50px;
+}
+.b1{
+  height: 33px;
+  width: 125px;
+  border-radius: 50px;
+  border: none;
+  background-color:#0050ff ;
+  color: white;
+  font-size: 17px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+.b1:hover{
+  background-color: white;
+  color: black;
+  border: solid;
+  border-color: #0050ff;
+  outline: none;
+  border-color: black;
+  transform: translateY(-5px);
+}
+.b2{
+  height: 33px;
+  width: 125px;
+  border-radius: 50px;
+  border: solid;
+  background-color:#ffffff ;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+.b2:hover{
+  height: 33px;
+  width: 125px;
+  border-radius: 50px;
+  border: none;
+  background-color:#0050ff ;
+  color: white;
+  font-size: 17px;
+  transition: all 0.3s;
+  font-weight: 500;
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.1);
+}
+footer{
+  left: 0;
+  right: 0;
+  height: 170px;
+  top: 1000px;
+  bottom: 0;
+  border: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p10{
+  width: 290px;
+}
+.p10{
+  color: gray;
+  font-size: 13px;
+  margin-left: 50px;
+}
+.class{
+  color: gray;
+  font-size: 13px;
+}
+.class1{
+  color: gray;
+  font-size: 13px;
+}
+.div{
+  width: 500px;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
